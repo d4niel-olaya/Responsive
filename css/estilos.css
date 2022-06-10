@@ -4,36 +4,46 @@
 }
  
 #header {
-    width: 960px;
+    width: 100%;
 }
 .titulo{
     border: 1px solid black;
     font-size: 3em; /* (3 * 16) = 64, 16 es generalmente le tamaño fuente base*/
 }
 #title-area {
-    width: 400px;
+    width: 41.666667%; /* Ancho total del contendor padre 960px */
+    border: 1px solid black;
 }
  
 #header .widget-area {
-    width: 540px;
+    width: 56.25%; /* Ancho total del contenedor padre 960px  */
+    border: 1px solid black;
 }
- 
+.parrafo{
+    font-size: 2.3em;
+}
 #inner {
-    width: 960px;
+    width: 100%; /* ancho del elemento padre */
 }
  
 #content-sidebar-wrap {
-    width: 790px;
+    width: 82.291666667%; /* Ancho calculado (790px/960) */
 }
  
 #content {
-    width: 470px;
+    width: 48.958333%; /* Ancho calculado (460px/960)*/
 }
  
-#sidebar {
-    width: 300px;
+#sidebar { 
+    width: 31.25%; /*  Ancho calculado 300px/960*/
 }
  
 #sidebar-alt {
-    width: 150px;
+    width: 15.625% ; /* Ancho calculador 150px/960 */ 
 }
+
+
+/*
+Primero se sacan las medidas en px y despues se convierten a %
+
+*/
