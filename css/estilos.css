@@ -1,5 +1,39 @@
-body{
-    background-color: dodgerblue;
-    font-weight: bold;
-    color:red
+#wrap {
+    width: 960px;
+
+}
+ 
+#header {
+    width: 960px;
+}
+.titulo{
+    border: 1px solid black;
+    font-size: 3em; /* (3 * 16) = 64, 16 es generalmente le tamaño fuente base*/
+}
+#title-area {
+    width: 400px;
+}
+ 
+#header .widget-area {
+    width: 540px;
+}
+ 
+#inner {
+    width: 960px;
+}
+ 
+#content-sidebar-wrap {
+    width: 790px;
+}
+ 
+#content {
+    width: 470px;
+}
+ 
+#sidebar {
+    width: 300px;
+}
+ 
+#sidebar-alt {
+    width: 150px;
 }
