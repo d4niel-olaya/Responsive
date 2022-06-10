@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 #wrap {
     width: 960px;
 
@@ -11,6 +14,7 @@
     font-size: 3em; /* (3 * 16) = 64, 16 es generalmente le tamaño fuente base*/
 }
 #title-area {
+    padding: 2.5%;
     width: 41.666667%; /* Ancho total del contendor padre 960px */
     border: 1px solid black;
 }
